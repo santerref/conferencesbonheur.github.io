@@ -1,0 +1,27 @@
+body {
+  background: #fbf6ea;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#header {
+  position: relative;
+}
+
+.header {
+  &__content {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+}
