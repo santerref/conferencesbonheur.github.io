@@ -358,11 +358,7 @@ footer {
   &--email {
     color: white;
     text-transform: uppercase;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    text-decoration: underline;
   }
 
   &--phone {
